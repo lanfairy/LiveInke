@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B75CF03DCB2DEBF2D9DE69B1 /* libPods-LiveInke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F1A40763C4B22546CC7E84 /* libPods-LiveInke.a */; };
+		D672B1AD1E2B34CA00EE5F50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D672B1AC1E2B34CA00EE5F50 /* main.m */; };
+		D672B1B61E2B34CA00EE5F50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D672B1B41E2B34CA00EE5F50 /* Main.storyboard */; };
+		D672B1B81E2B34CA00EE5F50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D672B1B71E2B34CA00EE5F50 /* Assets.xcassets */; };
+		D672B1BB1E2B34CA00EE5F50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D672B1B91E2B34CA00EE5F50 /* LaunchScreen.storyboard */; };
+		D672B1E01E2B3BAB00EE5F50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D672B1DA1E2B3BAB00EE5F50 /* AppDelegate.m */; };
+		D672B1E61E2B541500EE5F50 /* LiveTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D672B1E51E2B541500EE5F50 /* LiveTabBarViewController.m */; };
+		D672B1E91E2B544E00EE5F50 /* LiveTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D672B1E81E2B544E00EE5F50 /* LiveTabBar.m */; };
+		D672B1EC1E2B5FDB00EE5F50 /* LiveBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D672B1EB1E2B5FDB00EE5F50 /* LiveBaseViewController.m */; };
+		D672B1EF1E2B602900EE5F50 /* LiveMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D672B1EE1E2B602900EE5F50 /* LiveMainViewController.m */; };
+		D672B1F21E2B605800EE5F50 /* LiveMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D672B1F11E2B605800EE5F50 /* LiveMeViewController.m */; };
+		D672B1F51E2B61B800EE5F50 /* LiveBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = D672B1F41E2B61B800EE5F50 /* LiveBaseNavController.m */; };
+		D672B1F81E2B839800EE5F50 /* LiveLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D672B1F71E2B839800EE5F50 /* LiveLaunchViewController.m */; };
+		D672B1FB1E2B8E1C00EE5F50 /* LiveFocuseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D672B1FA1E2B8E1C00EE5F50 /* LiveFocuseViewController.m */; };
+		D672B1FE1E2B8E5A00EE5F50 /* LiveHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D672B1FD1E2B8E5A00EE5F50 /* LiveHotViewController.m */; };
+		D672B2011E2B8E6400EE5F50 /* LiveNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D672B2001E2B8E6400EE5F50 /* LiveNearViewController.m */; };
+		D672B2041E2BAB5D00EE5F50 /* LiveMainTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = D672B2031E2BAB5D00EE5F50 /* LiveMainTopView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0797C8D7FB6EC52FB94AF199 /* Pods-LiveInke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveInke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiveInke/Pods-LiveInke.debug.xcconfig"; sourceTree = "<group>"; };
+		7652070FF728F6E4A559CCF9 /* Pods-LiveInke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveInke.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiveInke/Pods-LiveInke.release.xcconfig"; sourceTree = "<group>"; };
+		C6F1A40763C4B22546CC7E84 /* libPods-LiveInke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiveInke.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D672B1A81E2B34CA00EE5F50 /* LiveInke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveInke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D672B1AC1E2B34CA00EE5F50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D672B1B51E2B34CA00EE5F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D672B1B71E2B34CA00EE5F50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D672B1BA1E2B34CA00EE5F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D672B1BC1E2B34CA00EE5F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D672B1D91E2B3BAB00EE5F50 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D672B1DA1E2B3BAB00EE5F50 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D672B1E21E2B3D6600EE5F50 /* LiveInke.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveInke.pch; sourceTree = "<group>"; };
+		D672B1E31E2B511500EE5F50 /* LiveInkeMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveInkeMacros.h; sourceTree = "<group>"; };
+		D672B1E41E2B541500EE5F50 /* LiveTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveTabBarViewController.h; sourceTree = "<group>"; };
+		D672B1E51E2B541500EE5F50 /* LiveTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveTabBarViewController.m; sourceTree = "<group>"; };
+		D672B1E71E2B544E00EE5F50 /* LiveTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveTabBar.h; sourceTree = "<group>"; };
+		D672B1E81E2B544E00EE5F50 /* LiveTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveTabBar.m; sourceTree = "<group>"; };
+		D672B1EA1E2B5FDB00EE5F50 /* LiveBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveBaseViewController.h; sourceTree = "<group>"; };
+		D672B1EB1E2B5FDB00EE5F50 /* LiveBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveBaseViewController.m; sourceTree = "<group>"; };
+		D672B1ED1E2B602900EE5F50 /* LiveMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveMainViewController.h; sourceTree = "<group>"; };
+		D672B1EE1E2B602900EE5F50 /* LiveMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveMainViewController.m; sourceTree = "<group>"; };
+		D672B1F01E2B605800EE5F50 /* LiveMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveMeViewController.h; sourceTree = "<group>"; };
+		D672B1F11E2B605800EE5F50 /* LiveMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveMeViewController.m; sourceTree = "<group>"; };
+		D672B1F31E2B61B800EE5F50 /* LiveBaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveBaseNavController.h; sourceTree = "<group>"; };
+		D672B1F41E2B61B800EE5F50 /* LiveBaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveBaseNavController.m; sourceTree = "<group>"; };
+		D672B1F61E2B839800EE5F50 /* LiveLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveLaunchViewController.h; sourceTree = "<group>"; };
+		D672B1F71E2B839800EE5F50 /* LiveLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveLaunchViewController.m; sourceTree = "<group>"; };
+		D672B1F91E2B8E1C00EE5F50 /* LiveFocuseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveFocuseViewController.h; sourceTree = "<group>"; };
+		D672B1FA1E2B8E1C00EE5F50 /* LiveFocuseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveFocuseViewController.m; sourceTree = "<group>"; };
+		D672B1FC1E2B8E5A00EE5F50 /* LiveHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveHotViewController.h; sourceTree = "<group>"; };
+		D672B1FD1E2B8E5A00EE5F50 /* LiveHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveHotViewController.m; sourceTree = "<group>"; };
+		D672B1FF1E2B8E6400EE5F50 /* LiveNearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveNearViewController.h; sourceTree = "<group>"; };
+		D672B2001E2B8E6400EE5F50 /* LiveNearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveNearViewController.m; sourceTree = "<group>"; };
+		D672B2021E2BAB5D00EE5F50 /* LiveMainTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveMainTopView.h; sourceTree = "<group>"; };
+		D672B2031E2BAB5D00EE5F50 /* LiveMainTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveMainTopView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D672B1A51E2B34CA00EE5F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75CF03DCB2DEBF2D9DE69B1 /* libPods-LiveInke.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		024E09163146EA8D11E3980F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6F1A40763C4B22546CC7E84 /* libPods-LiveInke.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0746EE7054AF662F069912FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0797C8D7FB6EC52FB94AF199 /* Pods-LiveInke.debug.xcconfig */,
+				7652070FF728F6E4A559CCF9 /* Pods-LiveInke.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D672B19F1E2B34CA00EE5F50 = {
+			isa = PBXGroup;
+			children = (
+				D672B1AA1E2B34CA00EE5F50 /* LiveInke */,
+				D672B1A91E2B34CA00EE5F50 /* Products */,
+				0746EE7054AF662F069912FF /* Pods */,
+				024E09163146EA8D11E3980F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D672B1A91E2B34CA00EE5F50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D672B1A81E2B34CA00EE5F50 /* LiveInke.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D672B1AA1E2B34CA00EE5F50 /* LiveInke */ = {
+			isa = PBXGroup;
+			children = (
+				D672B1C21E2B3BAB00EE5F50 /* Class */,
+				D672B1AB1E2B34CA00EE5F50 /* Supporting Files */,
+			);
+			path = LiveInke;
+			sourceTree = "<group>";
+		};
+		D672B1AB1E2B34CA00EE5F50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D672B1B41E2B34CA00EE5F50 /* Main.storyboard */,
+				D672B1B71E2B34CA00EE5F50 /* Assets.xcassets */,
+				D672B1B91E2B34CA00EE5F50 /* LaunchScreen.storyboard */,
+				D672B1BC1E2B34CA00EE5F50 /* Info.plist */,
+				D672B1AC1E2B34CA00EE5F50 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D672B1C21E2B3BAB00EE5F50 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D672B1C31E2B3BAB00EE5F50 /* Base */,
+				D672B1C41E2B3BAB00EE5F50 /* Helper */,
+				D672B1C71E2B3BAB00EE5F50 /* Launch */,
+				D672B1CC1E2B3BAB00EE5F50 /* Lib */,
+				D672B1CD1E2B3BAB00EE5F50 /* Live */,
+				D672B1D21E2B3BAB00EE5F50 /* Me */,
+				D672B1D71E2B3BAB00EE5F50 /* NetWork */,
+				D672B1D81E2B3BAB00EE5F50 /* Other */,
+				D672B1DB1E2B3BAB00EE5F50 /* Show */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		D672B1C31E2B3BAB00EE5F50 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D672B1E41E2B541500EE5F50 /* LiveTabBarViewController.h */,
+				D672B1E51E2B541500EE5F50 /* LiveTabBarViewController.m */,
+				D672B1E71E2B544E00EE5F50 /* LiveTabBar.h */,
+				D672B1E81E2B544E00EE5F50 /* LiveTabBar.m */,
+				D672B1EA1E2B5FDB00EE5F50 /* LiveBaseViewController.h */,
+				D672B1EB1E2B5FDB00EE5F50 /* LiveBaseViewController.m */,
+				D672B1F31E2B61B800EE5F50 /* LiveBaseNavController.h */,
+				D672B1F41E2B61B800EE5F50 /* LiveBaseNavController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D672B1C41E2B3BAB00EE5F50 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D672B1C51E2B3BAB00EE5F50 /* Category */,
+				D672B1C61E2B3BAB00EE5F50 /* Tools */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D672B1C51E2B3BAB00EE5F50 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D672B1C61E2B3BAB00EE5F50 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D672B1C71E2B3BAB00EE5F50 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				D672B1C81E2B3BAB00EE5F50 /* Handler */,
+				D672B1C91E2B3BAB00EE5F50 /* Model */,
+				D672B1CA1E2B3BAB00EE5F50 /* View */,
+				D672B1CB1E2B3BAB00EE5F50 /* ViewController */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		D672B1C81E2B3BAB00EE5F50 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		D672B1C91E2B3BAB00EE5F50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D672B1CA1E2B3BAB00EE5F50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D672B1CB1E2B3BAB00EE5F50 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D672B1CC1E2B3BAB00EE5F50 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		D672B1CD1E2B3BAB00EE5F50 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				D672B1CE1E2B3BAB00EE5F50 /* Handler */,
+				D672B1CF1E2B3BAB00EE5F50 /* Model */,
+				D672B1D01E2B3BAB00EE5F50 /* View */,
+				D672B1D11E2B3BAB00EE5F50 /* ViewController */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		D672B1CE1E2B3BAB00EE5F50 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		D672B1CF1E2B3BAB00EE5F50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D672B1D01E2B3BAB00EE5F50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D672B1D11E2B3BAB00EE5F50 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D672B1F61E2B839800EE5F50 /* LiveLaunchViewController.h */,
+				D672B1F71E2B839800EE5F50 /* LiveLaunchViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D672B1D21E2B3BAB00EE5F50 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				D672B1D31E2B3BAB00EE5F50 /* Handler */,
+				D672B1D41E2B3BAB00EE5F50 /* Model */,
+				D672B1D51E2B3BAB00EE5F50 /* View */,
+				D672B1D61E2B3BAB00EE5F50 /* ViewController */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		D672B1D31E2B3BAB00EE5F50 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		D672B1D41E2B3BAB00EE5F50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D672B1D51E2B3BAB00EE5F50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D672B1D61E2B3BAB00EE5F50 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D672B1D71E2B3BAB00EE5F50 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		D672B1D81E2B3BAB00EE5F50 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D672B1D91E2B3BAB00EE5F50 /* AppDelegate.h */,
+				D672B1DA1E2B3BAB00EE5F50 /* AppDelegate.m */,
+				D672B1E21E2B3D6600EE5F50 /* LiveInke.pch */,
+				D672B1E31E2B511500EE5F50 /* LiveInkeMacros.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D672B1DB1E2B3BAB00EE5F50 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				D672B1DC1E2B3BAB00EE5F50 /* Handler */,
+				D672B1DD1E2B3BAB00EE5F50 /* Model */,
+				D672B1DE1E2B3BAB00EE5F50 /* View */,
+				D672B1DF1E2B3BAB00EE5F50 /* ViewController */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		D672B1DC1E2B3BAB00EE5F50 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		D672B1DD1E2B3BAB00EE5F50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D672B1DE1E2B3BAB00EE5F50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D672B2021E2BAB5D00EE5F50 /* LiveMainTopView.h */,
+				D672B2031E2BAB5D00EE5F50 /* LiveMainTopView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D672B1DF1E2B3BAB00EE5F50 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D672B1ED1E2B602900EE5F50 /* LiveMainViewController.h */,
+				D672B1EE1E2B602900EE5F50 /* LiveMainViewController.m */,
+				D672B1F01E2B605800EE5F50 /* LiveMeViewController.h */,
+				D672B1F11E2B605800EE5F50 /* LiveMeViewController.m */,
+				D672B1F91E2B8E1C00EE5F50 /* LiveFocuseViewController.h */,
+				D672B1FA1E2B8E1C00EE5F50 /* LiveFocuseViewController.m */,
+				D672B1FC1E2B8E5A00EE5F50 /* LiveHotViewController.h */,
+				D672B1FD1E2B8E5A00EE5F50 /* LiveHotViewController.m */,
+				D672B1FF1E2B8E6400EE5F50 /* LiveNearViewController.h */,
+				D672B2001E2B8E6400EE5F50 /* LiveNearViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D672B1A71E2B34CA00EE5F50 /* LiveInke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D672B1BF1E2B34CA00EE5F50 /* Build configuration list for PBXNativeTarget "LiveInke" */;
+			buildPhases = (
+				5572A6259F55DF2AFBD0365B /* [CP] Check Pods Manifest.lock */,
+				D672B1A41E2B34CA00EE5F50 /* Sources */,
+				D672B1A51E2B34CA00EE5F50 /* Frameworks */,
+				D672B1A61E2B34CA00EE5F50 /* Resources */,
+				226C4C61E18D5223B28D19FC /* [CP] Embed Pods Frameworks */,
+				B21858CBE65814A1C2DCC45E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveInke;
+			productName = LiveInke;
+			productReference = D672B1A81E2B34CA00EE5F50 /* LiveInke.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D672B1A01E2B34CA00EE5F50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Live;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = lanfairy;
+				TargetAttributes = {
+					D672B1A71E2B34CA00EE5F50 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V3JNE23LZ6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D672B1A31E2B34CA00EE5F50 /* Build configuration list for PBXProject "LiveInke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D672B19F1E2B34CA00EE5F50;
+			productRefGroup = D672B1A91E2B34CA00EE5F50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D672B1A71E2B34CA00EE5F50 /* LiveInke */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D672B1A61E2B34CA00EE5F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D672B1BB1E2B34CA00EE5F50 /* LaunchScreen.storyboard in Resources */,
+				D672B1B81E2B34CA00EE5F50 /* Assets.xcassets in Resources */,
+				D672B1B61E2B34CA00EE5F50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		226C4C61E18D5223B28D19FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiveInke/Pods-LiveInke-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5572A6259F55DF2AFBD0365B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B21858CBE65814A1C2DCC45E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiveInke/Pods-LiveInke-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D672B1A41E2B34CA00EE5F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D672B2011E2B8E6400EE5F50 /* LiveNearViewController.m in Sources */,
+				D672B1F21E2B605800EE5F50 /* LiveMeViewController.m in Sources */,
+				D672B1FB1E2B8E1C00EE5F50 /* LiveFocuseViewController.m in Sources */,
+				D672B1E01E2B3BAB00EE5F50 /* AppDelegate.m in Sources */,
+				D672B1E61E2B541500EE5F50 /* LiveTabBarViewController.m in Sources */,
+				D672B1AD1E2B34CA00EE5F50 /* main.m in Sources */,
+				D672B1EF1E2B602900EE5F50 /* LiveMainViewController.m in Sources */,
+				D672B1F81E2B839800EE5F50 /* LiveLaunchViewController.m in Sources */,
+				D672B2041E2BAB5D00EE5F50 /* LiveMainTopView.m in Sources */,
+				D672B1EC1E2B5FDB00EE5F50 /* LiveBaseViewController.m in Sources */,
+				D672B1FE1E2B8E5A00EE5F50 /* LiveHotViewController.m in Sources */,
+				D672B1F51E2B61B800EE5F50 /* LiveBaseNavController.m in Sources */,
+				D672B1E91E2B544E00EE5F50 /* LiveTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D672B1B41E2B34CA00EE5F50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D672B1B51E2B34CA00EE5F50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D672B1B91E2B34CA00EE5F50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D672B1BA1E2B34CA00EE5F50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D672B1BD1E2B34CA00EE5F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D672B1BE1E2B34CA00EE5F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D672B1C01E2B34CA00EE5F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0797C8D7FB6EC52FB94AF199 /* Pods-LiveInke.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = V3JNE23LZ6;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LiveInke/Class/Other/LiveInke.pch";
+				INFOPLIST_FILE = LiveInke/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanfairy.LiveInke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D672B1C11E2B34CA00EE5F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7652070FF728F6E4A559CCF9 /* Pods-LiveInke.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = V3JNE23LZ6;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LiveInke/Class/Other/LiveInke.pch";
+				INFOPLIST_FILE = LiveInke/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanfairy.LiveInke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D672B1A31E2B34CA00EE5F50 /* Build configuration list for PBXProject "LiveInke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D672B1BD1E2B34CA00EE5F50 /* Debug */,
+				D672B1BE1E2B34CA00EE5F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D672B1BF1E2B34CA00EE5F50 /* Build configuration list for PBXNativeTarget "LiveInke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D672B1C01E2B34CA00EE5F50 /* Debug */,
+				D672B1C11E2B34CA00EE5F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D672B1A01E2B34CA00EE5F50 /* Project object */;
+}
