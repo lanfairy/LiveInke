@@ -8,6 +8,6 @@
 
 #import "LiveBaseViewController.h"
 
-@interface LiveHotViewController : LiveBaseViewController
+@interface LiveHotViewController : UITableViewController
 
 @end

@@ -7,31 +7,53 @@
 //
 
 #import "LiveHotViewController.h"
-
-@interface LiveHotViewController ()
-
+#import "LivePlayerViewController.h"
+#import "LiveLiveHandler.h"
+#import "LiveHotCell.h"
+@interface LiveHotViewController ()<UITableViewDelegate,UITableViewDataSource>
+@property (nonatomic, strong) NSMutableArray *liveList;
 @end
 
 @implementation LiveHotViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self initUI];
+    [self loadData];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)initUI {
+    self.automaticallyAdjustsScrollViewInsets = NO;
+    self.tableView.rowHeight = LIVEHOTCELLTOPH + ScreenWidth;
+    self.view.top = 44.f;
+    self.liveList = [NSMutableArray array];
+}
+- (void)loadData {
+    [LiveLiveHandler executeGetHotLiveTaskWithSuccess:^(id obj) {
+        NSLog(@"%@",obj);
+        [self.liveList addObjectsFromArray:obj];
+        [self.tableView reloadData];
+    } Failed:^(id obj) {
+        
+    }];
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.liveList.count;
 }
-*/
 
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    LiveHotCell *cell = [LiveHotCell LiveHotCellWithTableView:tableView];
+    cell.liveTop = self.liveList[indexPath.row];
+    
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    LivePlayerViewController *livePlayer = [[LivePlayerViewController alloc] init];
+    livePlayer.liveTop = self.liveList[indexPath.row];
+    [self presentViewController:livePlayer animated:YES completion:nil];
+}
 @end

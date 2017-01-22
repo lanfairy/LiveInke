@@ -41,7 +41,8 @@
 - (void)setUpLayout {
     WS(weakSelf)
     [self.contentScrollView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.left.right.bottom.equalTo(weakSelf.view);
+        make.left.right.bottom.equalTo(weakSelf.view);
+        make.top.offset(64.f);
     }];
 }
 
